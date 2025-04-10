@@ -11,10 +11,10 @@ function convertToBool(text, fault = 'true') {
 return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "prince_md-iIdnRApT#0u5WhUuWpBtDtGP7YfJsWCdx0XkvXLG6AN9kGYoHvEw",
+SESSION_ID: process.env.SESSION_ID || "prince_md-GNlRDDgZ#ADsZO8BLDa3Sfxsz4oZonxQDcGTdbPrU6me7TTI-AAs",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "private",
-OWNER_NUMBER: process.env.OWNER_NUMBER || "237682698587",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "243905490066",
 OWNER_NAME: process.env.OWNER_NAME || "PRINCE",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -31,7 +31,7 @@ ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
+CURRENT_STATUS: process.env.CURRENT_STATUS || "false",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "fase",
